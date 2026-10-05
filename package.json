@@ -1,0 +1,14 @@
+{
+  "name": "kafe-sahaf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kafe ve sahaf tanıtım, etkinlik ve atölye rezervasyon sitesi",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.10.0"
+  }
+}
